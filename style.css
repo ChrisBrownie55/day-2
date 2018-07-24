@@ -27,8 +27,8 @@ header > h1 {
 
 main {
   height: auto;
-  max-width: 70rem;
-  width: 80vw;
+  width: calc(100% - 2rem);
+  padding-left: 2rem;
   min-width: 20rem;
   margin-left: auto;
   display: flex;
@@ -38,6 +38,7 @@ main {
 .articles {
   flex-shrink: 1;
   padding-right: 2rem;
+  margin: 0 auto;
 }
 
 .article {
@@ -98,4 +99,35 @@ footer {
   width: 100%;
   margin-top: auto;
   height: 6rem;
+}
+
+@media (max-width: 800px) {
+  main {
+    flex-direction: column;
+  }
+
+  .article h2 {
+    text-align: center;
+  }
+
+  .articles {
+    padding-right: 0;
+    margin-left: 0 auto;
+  }
+
+  .ads {
+    width: 100%;
+    margin: 0 auto;
+    align-items: center;
+  }
+
+  .ad > img {
+    height: 15vw;
+  }
+}
+
+@media (min-width: 1024px) {
+  html {
+    font-size: 20px;
+  }
 }
