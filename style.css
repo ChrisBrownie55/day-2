@@ -62,10 +62,11 @@ main {
   height: fit-content;
   cursor: pointer;
   width: calc(14vw + 1rem);
+  max-width: 16rem;
 }
 .ad > img {
   height: 10vw;
-  max-height: 12rem;
+  max-height: 9rem;
   min-height: 6rem;
   width: 100%;
   object-fit: cover;
@@ -123,6 +124,7 @@ footer {
     margin-bottom: 2rem;
   }
   .ad {
+    min-width: 10rem;
     width: calc(20vw + 3.5rem);
   }
   .ad > img {
@@ -140,6 +142,12 @@ footer {
 @media (min-width: 1400px) {
   html {
     font-size: 20px;
+  }
+}
+
+@media (min-width: 2042px) {
+  .ads {
+    right: calc(50% - 50rem);
   }
 }
 
