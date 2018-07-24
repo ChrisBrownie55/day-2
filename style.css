@@ -93,13 +93,13 @@ footer {
   background-color: #164683;
   width: 100%;
   margin-top: auto;
-  height: 6rem;
+  height: 5rem;
 }
 
 @media (max-width: 800px) {
   main {
     flex-direction: column;
-    padding: 0;
+    padding: 0 0.5rem;
     padding-bottom: 1rem;
     margin: 0 auto;
   }
@@ -123,11 +123,17 @@ footer {
     margin-bottom: 2rem;
   }
   .ad {
-    width: calc(25vw + 1rem);
+    width: calc(20vw + 3.5rem);
   }
   .ad > img {
     height: 15vw;
     width: 100%;
+  }
+}
+
+@media (max-width: 500px) {
+  header h1 {
+    font-size: 2rem;
   }
 }
 
