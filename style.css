@@ -80,6 +80,7 @@ main {
   min-height: 4rem;
   height: 10vw;
   max-height: 12rem;
+  min-height: 8rem;
   object-fit: cover;
   margin-bottom: 0.25rem;
 }
