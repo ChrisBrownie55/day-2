@@ -28,8 +28,8 @@ header > h1 {
 
 main {
   height: auto;
-  width: calc(100% - 2rem);
-  padding-left: 2rem;
+  width: calc(90% - 2rem);
+  padding-left: 10%;
   min-width: 20rem;
   margin-left: auto;
   display: flex;
@@ -79,6 +79,7 @@ main {
   width: 100%;
   min-height: 4rem;
   height: 10vw;
+  max-height: 12rem;
   object-fit: cover;
 }
 .ad > h4 {
